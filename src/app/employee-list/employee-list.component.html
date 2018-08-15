@@ -20,7 +20,7 @@
 
       <employee-list-table-view [list]="filteredList | async"
         [selectedId]="selectedId | async"
-        (selectId)="selectedId.next($event)"></employee-list-table-view>
+        (selectId)="selectedId.next($event.detail)"></employee-list-table-view>
 
     </div>
   </section>

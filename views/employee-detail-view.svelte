@@ -1,0 +1,16 @@
+{#if employee}
+  <section class="card">
+    <div class="card-content">
+      <div class="card-title">{employee.first_name} {employee.last_name}</div>
+      <p>Email: <b>{employee.email}</b></p>
+      <p>Hours Worked: <b>{employee.hours_worked}</b></p>
+      <p>Hourly Wage: <b>{employee.hourly_wage}</b></p>
+    </div>
+  </section>
+{/if}
+
+<script>
+  export default {
+    tag: "employee-detail-view"
+  };
+</script>
