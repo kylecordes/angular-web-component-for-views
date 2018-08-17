@@ -1,3 +1,6 @@
 {
-  "svelte.language-server.runtime": "/Users/kcordes/.nvm/versions/node/v10.8.0/bin/node"
+  "svelte.language-server.runtime": "/Users/kcordes/.nvm/versions/node/v10.9.0/bin/node",
+  "files.associations": {
+    "*.html": "html",
+  }
 }
